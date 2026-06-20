@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travesía UDL Integra</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <h1>🏃 Travesía UDL Integra</h1>
+  <div class="progress"><div id="bar" class="bar"></div></div>
+
+  <div id="codeScreen">
+    <h2 id="stationTitle"></h2>
+    <input id="codeInput" placeholder="Código">
+    <button onclick="checkCode()">Entrar</button>
+  </div>
+
+  <div id="questionScreen" style="display:none;">
+    <h2 id="question"></h2>
+    <div id="options"></div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
